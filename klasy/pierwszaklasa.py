@@ -15,6 +15,7 @@ class Paletka:
 # name = 'Beata'
 # age = 23
 # print(f"Hello, my name is {name} nad I am {age} years old")
-def testklasy()
+def testklasy():
     paletka_a = Paletka()
     print(f"Obiekt typu {type(paletka_a)} zawiera od razu pewne właściwości i metody:")
+    print(dir(paletka_a))
